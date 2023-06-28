@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #131518;
+  display: flex;
+  justify-content: center;
+}
+.main-card {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  height: 360px;
+  width: 327px;
+  border-radius: 15px;
+  margin-top: 154px;
+  padding: 24px 24px 32px 24px;
+}
+.card-header {
+  background-color: #262e38;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: Overpass;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #ffff;
+  margin-top: 16px;
+}
+.text {
+  font-family: Overpass;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #969fad;
+  margin-top: 10px;
+}
+.choices {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.choice {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background-color: #262e38;
+  font-family: Overpass;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.17;
+  text-align: center;
+  color: #7c8798;
+}
+.open {
+  background-color: #262e38;
+  color: #7c8798;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  font-family: Overpass;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.17;
+  text-align: center;
+}
+button {
+  height: 45px;
+  width: 279px;
+  border-radius: 22.5px;
+  background-color: #fc7614;
+  border: none;
+  margin-top: 24px;
+  font-family: Overpass;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.8666666746139526px;
+  text-align: center;
+  color: #ffff;
+}
+.main-card2 {
+  height: 360px;
+  width: 327px;
+  border-radius: 15px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  padding: 34px 24px 37px 24px;
+  margin-top: 154px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.illustration-thank-you {
+  height: 96px;
+  width: 144px;
+}
+h4 {
+  font-family: Overpass;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fc7614;
+  background-color: #262e38;
+  border-radius: 22.5px;
+  width: 168px;
+  height: 32px;
+  margin-top: 24px;
+}
+h2 {
+  font-family: Overpass;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: #ffff;
+  margin-top: 24px;
+}
+.text2 {
+  font-family: Overpass;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #969fad;
+  margin-top: 10px;
+}
+@media screen and (min-width: 1020px) {
+  .main-card {
+    height: 416px;
+    width: 412px;
+    border-radius: 30px;
+    margin-top: 195px;
+    padding: 32px 32px 32px 32px;
+  }
+  .card-header {
+    height: 48px;
+    width: 48px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 30px;
+  }
+  .text {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 7px;
+  }
+  .choice {
+    height: 51px;
+    width: 51px;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+  }
+  .open {
+    height: 51px;
+    width: 51px;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+  }
+  .choice:hover {
+    background-color: #fc7614;
+    color: #ffff;
+  }
+  button {
+    height: 45px;
+    width: 341px;
+    margin-top: 32px;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #ffff;
+    color: #fc7614;
+  }
+  .main-card2 {
+    height: 416px;
+    width: 412px;
+    border-radius: 30px;
+    padding: 45px 40px 45px 40px;
+    margin-top: 195px;
+  }
+  .illustration-thank-you {
+    height: 108px;
+    width: 162px;
+  }
+  h4 {
+    width: 193px;
+    height: 36px;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 36px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 32px;
+  }
+  .text2 {
+    margin-top: 7px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
